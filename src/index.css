@@ -1,0 +1,93 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+h1 {
+  letter-spacing: 4px;
+  font-family: monospace;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form {
+  background-color: gray;
+  background-color: 1px gray solid;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.input {
+  margin-right: 10px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.add {
+  background-color: black;
+  border: none;
+  padding: 3px 7px;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+.add:hover {
+  background-color: #242424;
+}
+
+.tasksDiv {
+  margin-top: 20px;
+  background-color: gray;
+  background-color: 1px gray solid;
+  padding: 20px;
+  border-radius: 5px;
+  
+}
+.tasksDiv ul {
+  list-style-type: "👉 ";
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.task li {
+  margin-bottom: 5px;
+  overflow-wrap: anywhere;
+  text-align: start;
+}
+
+.trash {
+  margin-left: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #a60b00;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 10px;
+  padding: 10px;
+}
